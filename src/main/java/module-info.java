@@ -3,7 +3,7 @@ module com.sharpenedkey.javahzul {
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
-    requires validatorfx;
+    requires net.synedra.validatorfx;
 
     opens com.sharpenedkey.javahzul to javafx.fxml;
     exports com.sharpenedkey.javahzul;
